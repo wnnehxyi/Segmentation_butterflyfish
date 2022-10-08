@@ -13,4 +13,17 @@ Linux: Ubuntu 20.04.4 LTS
 
 Train the model with colab, and download the code as notebook (.ipynb)
 
+...............
+annotations.json 
+divided into 70% training set and 30% validation
+
 ## Steps:
+1. Labeled images and generated annotations.json. There are training set (80%) and validation set (20%), and the annotations.json files are merged separately. Data marked as butterflyfish.
+![image](https://github.com/wnnehxyi/Segmentation_butterflyfish/blob/main/Steps_pic/1.png)
+
+2. Generated groundtruth after segmentation.
+![image](https://github.com/wnnehxyi/Segmentation_butterflyfish/blob/main/Steps_pic/2.png)
+
+3. Setting number of training steps per epoch = 50, epochs = 10
+![image](https://github.com/wnnehxyi/Segmentation_butterflyfish/blob/main/Steps_pic/3.png)
+![image](https://github.com/wnnehxyi/Segmentation_butterflyfish/blob/main/Steps_pic/3_.png)
